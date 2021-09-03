@@ -3,10 +3,12 @@
 In this assignment, you are tasked to build a home screen that neatly displays the details of a bike with a gesture. You will have to retreive the bike details via an API listed below
 
 ## Flutter
-You may use any flutter libraries to manage your state or to retreive the API. Bonus points for keeping the app as simple as possible
+You may use any flutter libraries to manage your state and to retreive the API. You may also use any code patterns to keep the app structured. Bonus points for keeping the app as simple as possible
 
 ## UI
-You may use any of the included assets to create the home screen. You may also target a specific screen size such as an iphone X and Pixel 3.
+You may use any of the included assets to create the home screen. You may also target a specific screen size such as an iphone X and Pixel 3. You may stick to just the landscape orientation.
+
+Note: Since it's hard to figure out the exact margin values between ui elements from the included examples, we will leave it up to you to determine what looks best.
 
 ## Examples
 <img src="https://github.com/qwicengineering/dev-assignment/blob/dbf2fde1a682aec7169e94b80d83188e54ed9a67/mobile-assignment/bike-details-animation.gif?raw=true" width="300" />
@@ -24,7 +26,7 @@ You may use any of the included assets to create the home screen. You may also t
 * implementation of the scroll animation displayed in the video example
 * implementation of the api to retreive bike details
 * must be able to target both android and iOS
-* keep it simple
+* some test coverage (at least three to four tests)
 
 ## API
 ```bash
