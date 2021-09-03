@@ -8,6 +8,17 @@ You may use any flutter libraries to manage your state or to retreive the API. B
 ## UI
 You may use any of the included assets to create the home screen. You may also target a specific screen size such as an iphone X and Pixel 3.
 
+## Examples
+<img src="https://github.com/qwicengineering/dev-assignment/blob/dbf2fde1a682aec7169e94b80d83188e54ed9a67/mobile-assignment/bike-details-animation.gif?raw=true" width="300" />
+
+---
+
+<img src="https://github.com/qwicengineering/dev-assignment/blob/main/mobile-assignment/bike-details-1.png?raw=true" width="300" />
+
+---
+
+<img src="https://github.com/qwicengineering/dev-assignment/blob/main/mobile-assignment/bike-details-2.png?raw=true" width="300" />
+
 ## Evaluation is based on
 * implementation of the home screen according to the video and attached images
 * implementation of the scroll animation displayed in the video example
