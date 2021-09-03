@@ -1,0 +1,7 @@
+{
+  "name": "qwiceng-assignment-infra",
+  "stage": "dev",
+  "region": "eu-west-1",
+  "lint": true,
+  "typeCheck": true
+}
