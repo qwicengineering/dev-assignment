@@ -2,7 +2,7 @@
 
 As a bike company, we would like to improve the process of returning broken parts. This challenge is really based on your ability to create a small app that allows users to create and see their return requests.
 
-![](assets/form.png)
+![](/assets/form.png)
 
 -   You may use any react scaffold tools to jump start your project.
 -   You may use any utility libraries such as lodash.js.
