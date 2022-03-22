@@ -38,6 +38,12 @@ Backend:
 -   You are allowed to mock the database layer.
 -   You are allowed to use any test framework
 
+In Readme (Not code):
+
+-   If this were to go to production, what presistent layer would you use and why?
+-   Describe your data schema for creating returns.
+-   What do you need to consider if this application needs to be highly available?
+
 Evaluation
 • Implementation of the above exercise
 • Documentation
