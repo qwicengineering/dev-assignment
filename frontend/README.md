@@ -1,6 +1,6 @@
 # QWIC React / JS take home assignment
 
-As a bike company, we would like to improve the process of returning broken parts. This challenge is really based on your ability to create a form and an endpoint that can submit the said form.
+As a bike company, we would like to improve the process of returning broken parts. This challenge is really based on your ability to create a small app that allows users to create and see their return requests.
 
 ![](assets/form.png)
 
@@ -29,20 +29,17 @@ Form validation rules
     -   Free text field value is optional and is not required in order to submit the form successfully
     -   Free text field should have a max character limit of 240
 
-Backend:
+List page
 
--   One endpoint required just to submit the form.
--   One endpoint to retrieve all return cases.
--   We will use a REST client to verify this endpoint.
--   You are allowed to use any node.js backend frameworks
--   You are allowed to mock the database layer.
--   You are allowed to use any test framework
+-   Create a list page to see all the return requests.
+-   When a user clicks on a return request within the list, they should see the details of that return request.
 
-In Readme (Not code):
+Notes
 
--   If this were to go to production, what presistent layer would you use and why?
--   Describe your data schema for creating returns.
--   What do you need to consider if this application needs to be highly available?
+-   You are allowed to mock all the relevant APIs in frontend
+    -   POST /returnRequest
+    -   GET /returnRequest/:id
+    -   GET /returnRequests
 
 Evaluation
 • Implementation of the above exercise
