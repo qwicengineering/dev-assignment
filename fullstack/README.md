@@ -31,25 +31,25 @@ Form validation rules
 
 Backend:
 
--   One endpoint required just to submit the form.
--   One endpoint to retrieve all return cases.
--   We will use a REST client to verify this endpoint.
--   You are allowed to use any node.js backend frameworks
--   You are allowed to mock the database layer.
--   You are allowed to use any test framework
+-   One endpoint required to create new returns.
+-   One endpoint to retrieve all return cases with ability to filter by return reasons.
+-   You are allowed to use any node.js backend frameworks.
+-   You are allowed to use any persistant layer.
+-   You are allowed to use any test framework.
 
 In Readme (Not code):
 
--   If this were to go to production, what presistent layer would you use and why?
 -   Describe your data schema for creating returns.
 -   What do you need to consider if this application needs to be highly available?
+-   How would this app change if we need to handle 1000s of new returns being created every hour? 
 
 Evaluation
-• Implementation of the above exercise
-• Documentation
-• Ease of setup in a local machine
-• Error handling and proper end to end form validation.
-• Some end to end test coverage
+- Implementation of the above exercise.
+- API implementation
+- Documentation
+- Ease of setup in a local machine
+- Error handling and proper API request/response format.
+- Some test coverage
 
 Time
 • Around five hours
